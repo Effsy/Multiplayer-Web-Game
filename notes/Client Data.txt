@@ -1,0 +1,25 @@
+Client Sends to Server - NOT AUTHORITATIVE:
+
+ - Input
+	- Click
+	- Mouse X and Y
+	- Keyboard Input
+
+Client Locally Updates:
+
+ - New Position
+ - All Local Client/Entity Positions
+ - Collisions of Any Entities
+
+Client Recieves From Server - AUTHORITATIVE:
+
+ - Own position
+ - Positions of other clients
+ - Positions of any entities
+
+Based On Server Response:
+
+ - Client stores server response in new variable ready to be overidden or interpolated towards - using while(delta >= timestep)
+ - Client interpolates (potentially a few frames behind <~100ms)
+
+* May need alterations

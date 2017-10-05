@@ -1,0 +1,9 @@
+Data Object Structure
+
+Either
+
+ - Single Packet per Client: At 60 packets/s for 50 clients = 300 total packets/s (Assume 1000b packet size - 464b overhead)
+Data
+	- Chunk Data
+		- 
+	- 

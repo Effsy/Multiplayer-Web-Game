@@ -1,0 +1,14 @@
+Chunk Size - Quadtree
+
+Increase Efficiency By
+ - 
+
+
+Many Chunks - Need to send many chunks per client
+Large chunk size
+
+Contained in Chunk Data:
+
+ - Entity Positions
+ - Client Positions + velocity
+
